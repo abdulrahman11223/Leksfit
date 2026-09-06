@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — LEKSFIT Admin</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+<header class="admin-header">
+  <span class="brand">LEKSFIT <em>Admin</em></span>
+  <div class="header-actions">
+    <button id="passwordBtn" class="btn-ghost">Change password</button>
+    <button id="logoutBtn" class="btn-ghost">Log out</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="toolbar">
+    <h1>Products</h1>
+    <button id="addBtn" class="btn-rust">+ Add product</button>
+  </div>
+
+  <div id="productTableWrap">
+    <p class="loading">Loading products…</p>
+  </div>
+</main>
+
+<!-- add/edit product modal -->
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <div class="modal-head">
+      <h2 id="modalTitle">Add product</h2>
+      <button class="modal-close" id="modalClose">&times;</button>
+    </div>
+
+    <form id="productForm">
+      <input type="hidden" id="productId">
+
+      <label>Name</label>
+      <input type="text" id="f_name" required>
+
+      <div class="row-2">
+        <div>
+          <label>Category</label>
+          <select id="f_category">
+            <option value="clothing">Clothing</option>
+            <option value="monogram">Monogram Design</option>
+            <option value="fabric">Fabrics</option>
+          </select>
+        </div>
+        <div>
+          <label>Price (₦)</label>
+          <input type="number" id="f_price" min="0" required>
+        </div>
+      </div>
+
+      <label>Subcategory</label>
+      <select id="f_subcategory"></select>
+
+      <label>Description</label>
+      <textarea id="f_description" rows="3"></textarea>
+
+      <label>Material</label>
+      <input type="text" id="f_material" placeholder="e.g. Cotton lace, Aso-oke">
+
+      <label>Colours (comma-separated)</label>
+      <input type="text" id="f_colours" placeholder="Navy, Gold">
+
+      <label>Sizes</label>
+      <div class="size-checks" id="sizeChecks">
+        <label><input type="checkbox" value="S"> S</label>
+        <label><input type="checkbox" value="M"> M</label>
+        <label><input type="checkbox" value="L"> L</label>
+        <label><input type="checkbox" value="XL"> XL</label>
+        <label><input type="checkbox" value="XXL"> XXL</label>
+      </div>
+
+      <div class="row-2">
+        <label class="checkbox-row"><input type="checkbox" id="f_in_stock" checked> Available</label>
+        <label class="checkbox-row"><input type="checkbox" id="f_featured"> Featured on homepage</label>
+      </div>
+
+      <label>Photos</label>
+      <div id="existingImages" class="existing-images"></div>
+      <input type="file" id="f_images" accept="image/*" multiple>
+      <p class="hint">First photo becomes the main image. You can add more later.</p>
+
+      <p class="error" id="formError"></p>
+
+      <div class="modal-actions">
+        <button type="button" class="btn-ghost" id="cancelBtn">Cancel</button>
+        <button type="submit" class="btn-rust" id="saveBtn">Save product</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- change password modal -->
+<div class="modal-backdrop" id="pwModalBackdrop">
+  <div class="modal">
+    <div class="modal-head">
+      <h2>Change password</h2>
+      <button class="modal-close" id="pwModalClose">&times;</button>
+    </div>
+
+    <form id="passwordForm">
+      <label>Current password</label>
+      <input type="password" id="pw_current" required>
+
+      <label>New password</label>
+      <input type="password" id="pw_new" minlength="6" required>
+
+      <label>Confirm new password</label>
+      <input type="password" id="pw_confirm" minlength="6" required>
+
+      <p class="error" id="pwError"></p>
+      <p class="success" id="pwSuccess"></p>
+
+      <div class="modal-actions">
+        <button type="button" class="btn-ghost" id="pwCancelBtn">Cancel</button>
+        <button type="submit" class="btn-rust">Update password</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/categories.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

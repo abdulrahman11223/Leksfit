@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Shop LEKSFIT Signature agbada, senator wear and caftans. Tap any piece to order straight on WhatsApp.">
+<meta name="theme-color" content="#141F35">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>Shop — LEKSFIT Signature</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">LEKSFIT <span>Signature</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="custom.html">Custom Fit</a>
+      <a href="cart.html" class="cart-link">Cart<span class="cart-badge" id="cartBadge">0</span></a>
+      <a href="https://wa.me/2347064338069" class="nav-cta" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.92 0-2.65-1.03-5.14-2.9-7.01A9.87 9.87 0 0 0 12.04 2m0 1.67c2.32 0 4.5.9 6.14 2.55a8.6 8.6 0 0 1 2.54 6.14c0 4.55-3.7 8.25-8.25 8.25a8.3 8.3 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.24 8.24 0 0 1-1.26-4.39c0-4.55 3.7-8.25 8.25-8.25M8.53 7.4c-.17 0-.45.06-.68.32-.23.25-.9.87-.9 2.13 0 1.25.92 2.46 1.05 2.63.13.17 1.8 2.83 4.45 3.85 2.2.85 2.65.68 3.13.64.48-.04 1.55-.63 1.77-1.24.22-.6.22-1.13.15-1.24-.06-.11-.24-.17-.5-.3-.26-.13-1.55-.77-1.79-.85-.24-.09-.42-.13-.59.13-.17.26-.68.85-.83 1.02-.15.17-.3.19-.57.06-.26-.13-1.1-.4-2.1-1.29-.78-.7-1.3-1.55-1.46-1.81-.15-.26-.02-.4.11-.53.12-.12.26-.3.4-.45.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.45-.06-.13-.59-1.45-.82-1.98-.21-.51-.43-.44-.59-.45z"/></svg>
+        WhatsApp
+      </a>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<section style="background:var(--navy);padding:56px 0 44px;">
+  <div class="wrap">
+    <p class="eyebrow">The full range</p>
+    <h1 style="color:var(--ecru);font-size:clamp(34px,5vw,52px);margin-top:12px;">The <em>Shop</em>.</h1>
+    <p style="color:rgba(241,233,216,.7);max-width:480px;margin-top:14px;">
+      Tap "Order on WhatsApp" on any piece — it opens a chat to Lekan with the
+      item already filled in, so you only need to confirm your size and price.
+    </p>
+  </div>
+</section>
+
+<section style="padding-top:48px;">
+  <div class="wrap">
+
+    <div class="shop-controls">
+      <input type="text" id="searchInput" placeholder="Search everything… e.g. navy, lace" class="search-input">
+      <div class="price-range">
+        <label for="maxPriceInput">Under</label>
+        <select id="maxPriceInput">
+          <option value="">Any price</option>
+          <option value="40000">₦40,000</option>
+          <option value="60000">₦60,000</option>
+          <option value="80000">₦80,000</option>
+          <option value="100000">₦100,000</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="categorySections">
+      <p class="loading-msg">Loading pieces…</p>
+    </div>
+
+    <p style="text-align:center;margin-top:16px;color:rgba(27,23,18,.55);font-size:14px;">
+      Don't see your size or exact colour? <a href="custom.html" style="color:var(--rust);font-weight:600;">Start a custom order →</a>
+    </p>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>LEKSFIT Signature</h4>
+        <p style="max-width:280px;">Bespoke agbada, senator wear and caftans, designed and sewn by Lekan Muyi. Every order starts on WhatsApp.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+2347064338069">0706 433 8069</a></p>
+        <p><a href="mailto:lekky33@gmail.com">lekky33@gmail.com</a></p>
+        <p><a href="https://instagram.com/leksfit_signature" target="_blank" rel="noopener">@leksfit_signature</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="custom.html">Start a custom order</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 LEKSFIT Signature. All rights reserved.</span>
+      <span>Site preview — built by Ahd</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+.filter-pill{
+  font-family:'Inter',sans-serif;font-size:13px;font-weight:600;
+  padding:10px 18px;border-radius:20px;border:1px solid var(--line);
+  background:var(--card);cursor:pointer;color:var(--ink);
+  transition:all .15s ease;
+}
+.filter-pill:hover{border-color:var(--rust);}
+.filter-pill.active{background:var(--navy);color:var(--ecru);border-color:var(--navy);}
+.shop-controls{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:36px;}
+.search-input{
+  flex:1;min-width:220px;padding:11px 14px;border:1px solid var(--line);border-radius:8px;
+  font-family:'Inter',sans-serif;font-size:14px;background:var(--card);color:var(--ink);
+}
+.price-range{display:flex;align-items:center;gap:8px;font-size:14px;}
+.price-range select{padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-family:'Inter',sans-serif;}
+.loading-msg,.empty-msg{color:rgba(27,23,18,.55);grid-column:1/-1;}
+.card-foot{display:flex;gap:8px;flex-wrap:wrap;}
+.size-pill-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px;}
+.size-pill{
+  border:1px solid var(--line);border-radius:6px;padding:5px 10px;font-size:12px;
+  background:var(--card);cursor:pointer;color:var(--ink);
+}
+.size-pill.selected{background:var(--navy);color:var(--ecru);border-color:var(--navy);}
+
+/* each main category gets its own clearly separated block, not one long list */
+.category-section{
+  margin-bottom:64px;padding-bottom:56px;border-bottom:1px solid var(--line);
+}
+.category-section:last-of-type{border-bottom:none;margin-bottom:24px;}
+.category-section-head{margin-bottom:22px;}
+.category-section-head h2{font-size:clamp(24px,3vw,30px);margin:0 0 6px;}
+.category-section-head h2 em{color:var(--rust);font-style:italic;}
+.subcat-pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;}
+.subcat-pill{
+  font-family:'Inter',sans-serif;font-size:12px;font-weight:600;
+  padding:8px 14px;border-radius:20px;border:1px solid var(--line);
+  background:var(--card);cursor:pointer;color:var(--ink);transition:all .15s ease;
+}
+.subcat-pill:hover{border-color:var(--rust);}
+.subcat-pill.active{background:var(--rust);color:#fff;border-color:var(--rust);}
+.category-empty{color:rgba(27,23,18,.5);font-size:14px;padding:8px 0 4px;}
+</style>
+
+<script src="js/cart.js"></script>
+<script src="js/categories.js"></script>
+<script src="js/shop.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

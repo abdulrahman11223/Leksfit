@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#141F35">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>Product — LEKSFIT Signature</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">LEKSFIT <span>Signature</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="custom.html">Custom Fit</a>
+      <a href="cart.html" class="cart-link">Cart<span class="cart-badge" id="cartBadge">0</span></a>
+      <a href="https://wa.me/2347064338069" class="nav-cta" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.92 0-2.65-1.03-5.14-2.9-7.01A9.87 9.87 0 0 0 12.04 2m0 1.67c2.32 0 4.5.9 6.14 2.55a8.6 8.6 0 0 1 2.54 6.14c0 4.55-3.7 8.25-8.25 8.25a8.3 8.3 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.24 8.24 0 0 1-1.26-4.39c0-4.55 3.7-8.25 8.25-8.25M8.53 7.4c-.17 0-.45.06-.68.32-.23.25-.9.87-.9 2.13 0 1.25.92 2.46 1.05 2.63.13.17 1.8 2.83 4.45 3.85 2.2.85 2.65.68 3.13.64.48-.04 1.55-.63 1.77-1.24.22-.6.22-1.13.15-1.24-.06-.11-.24-.17-.5-.3-.26-.13-1.55-.77-1.79-.85-.24-.09-.42-.13-.59.13-.17.26-.68.85-.83 1.02-.15.17-.3.19-.57.06-.26-.13-1.1-.4-2.1-1.29-.78-.7-1.3-1.55-1.46-1.81-.15-.26-.02-.4.11-.53.12-.12.26-.3.4-.45.13-.15.17-.26.26-.43.09-.17.04-.32-.02-.45-.06-.13-.59-1.45-.82-1.98-.21-.51-.43-.44-.59-.45z"/></svg>
+        WhatsApp
+      </a>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<section style="padding:48px 0 80px;">
+  <div class="wrap" id="productWrap">
+    <p class="loading-msg">Loading…</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>LEKSFIT Signature</h4>
+        <p style="max-width:280px;">Bespoke agbada, senator wear and caftans, designed and sewn by Lekan Muyi. Every order starts on WhatsApp.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+2347064338069">0706 433 8069</a></p>
+        <p><a href="mailto:lekky33@gmail.com">lekky33@gmail.com</a></p>
+        <p><a href="https://instagram.com/leksfit_signature" target="_blank" rel="noopener">@leksfit_signature</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="custom.html">Start a custom order</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 LEKSFIT Signature. All rights reserved.</span>
+      <span>Site preview — built by Ahd</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+.pdp-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;}
+.pdp-gallery-main{border-radius:10px;overflow:hidden;background:var(--card);aspect-ratio:4/5;}
+.pdp-gallery-main img{width:100%;height:100%;object-fit:cover;}
+.pdp-thumbs{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+.pdp-thumbs img{width:64px;height:64px;object-fit:cover;border-radius:6px;cursor:pointer;border:2px solid transparent;}
+.pdp-thumbs img.active{border-color:var(--rust);}
+.pdp-tag{color:var(--rust);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em;}
+.pdp-title{font-size:clamp(28px,4vw,38px);margin:10px 0;}
+.pdp-price{font-size:22px;font-weight:700;margin:10px 0 20px;}
+.pdp-desc{color:rgba(27,23,18,.75);line-height:1.6;margin-bottom:18px;}
+.pdp-meta{font-size:14px;color:rgba(27,23,18,.65);margin-bottom:6px;}
+.pdp-sizes{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 24px;}
+.pdp-size-pill{border:1px solid var(--line);border-radius:8px;padding:9px 16px;font-size:14px;background:var(--card);cursor:pointer;}
+.pdp-size-pill.selected{background:var(--navy);color:var(--ecru);border-color:var(--navy);}
+.pdp-unavailable{color:var(--rust);font-weight:600;margin-bottom:16px;}
+@media (max-width:800px){.pdp-grid{grid-template-columns:1fr;}}
+</style>
+
+<script src="js/cart.js"></script>
+<script src="js/categories.js"></script>
+<script src="js/product.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
