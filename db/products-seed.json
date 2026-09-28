@@ -1,0 +1,740 @@
+[
+  {
+    "name": "Midnight Monogram Short-Sleeve Set",
+    "slug": "midnight-monogram-short-sleeve-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Relaxed short-sleeve navy set in a fine pinstripe cloth, with a small embroidered emblem on the chest and straight-cut trousers.",
+    "material": "",
+    "colours": [
+      "Navy"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/midnight-monogram-short-sleeve-set-1.jpg"
+    ]
+  },
+  {
+    "name": "Navy Pinstripe Senator Set",
+    "slug": "navy-pinstripe-senator-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Fine white pinstripes on deep navy, shown in several styles: long-sleeve senator tops with trousers, and an agbada cut worn over the set.",
+    "material": "",
+    "colours": [
+      "Navy",
+      "White"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": true,
+    "images": [
+      "/images/products/navy-pinstripe-senator-set-1.jpg",
+      "/images/products/navy-pinstripe-senator-set-2.jpg",
+      "/images/products/navy-pinstripe-senator-set-3.jpg",
+      "/images/products/navy-pinstripe-senator-set-4.jpg",
+      "/images/products/navy-pinstripe-senator-set-5.jpg"
+    ]
+  },
+  {
+    "name": "Royal Navy Senator Set",
+    "slug": "royal-navy-senator-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Rich royal navy in a plain textured cloth. Shown as a long-sleeve set, a short-sleeve set with tonal chest embroidery, and a full agbada.",
+    "material": "",
+    "colours": [
+      "Royal Navy",
+      "Blue"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/royal-navy-senator-set-1.jpg",
+      "/images/products/royal-navy-senator-set-2.jpg",
+      "/images/products/royal-navy-senator-set-3.jpg"
+    ]
+  },
+  {
+    "name": "Royal Blue Gold-Stripe Set",
+    "slug": "royal-blue-gold-stripe-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Bold royal blue with gold-toned stripes. Shown as a loose short-sleeve kaftan with wide trousers, a long-sleeve set, and a version with a chest embroidery detail.",
+    "material": "",
+    "colours": [
+      "Royal Blue",
+      "Gold"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/royal-blue-gold-stripe-set-1.jpg",
+      "/images/products/royal-blue-gold-stripe-set-2.jpg",
+      "/images/products/royal-blue-gold-stripe-set-3.jpg"
+    ]
+  },
+  {
+    "name": "Navy & Gold Chevron Stripe Set",
+    "slug": "navy-gold-chevron-stripe-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Navy long-sleeve set with gold stripes running in a chevron pattern across the chest, with matching striped trousers.",
+    "material": "",
+    "colours": [
+      "Navy",
+      "Gold"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/navy-gold-chevron-stripe-set-1.jpg"
+    ]
+  },
+  {
+    "name": "Green & Blue Stripe Set",
+    "slug": "green-blue-stripe-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Bold green and blue vertical stripes on a long-sleeve set with matching trousers, styled with a blue cap and a white cap.",
+    "material": "",
+    "colours": [
+      "Green",
+      "Blue"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/green-blue-stripe-set-1.jpg",
+      "/images/products/green-blue-stripe-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Red Stripe Set",
+    "slug": "red-stripe-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Deep red cloth with gold and blue stripes. Shown as an agbada-cut top with matching trousers and as a long-sleeve set.",
+    "material": "",
+    "colours": [
+      "Red",
+      "Gold"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/red-stripe-set-1.jpg",
+      "/images/products/red-stripe-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Bright Red Senator Set",
+    "slug": "bright-red-senator-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Vivid red in a fine textured cloth. Shown as a flowing agbada and as a long-sleeve set with an embroidered front placket.",
+    "material": "",
+    "colours": [
+      "Red"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/bright-red-senator-set-1.jpg",
+      "/images/products/bright-red-senator-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Terracotta Stripe Set",
+    "slug": "terracotta-stripe-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Warm terracotta with fine light stripes. Shown as a long-sleeve set with a chest pocket and as a version with embroidered line detail on the front.",
+    "material": "",
+    "colours": [
+      "Terracotta",
+      "Rust"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/terracotta-stripe-set-1.jpg",
+      "/images/products/terracotta-stripe-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Caramel Stripe Set",
+    "slug": "caramel-stripe-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Caramel-brown pinstripe cloth. Shown as a short-sleeve set with a chest pocket and a long-sleeve set with a chevron-stitched yoke.",
+    "material": "",
+    "colours": [
+      "Caramel",
+      "Brown"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/caramel-stripe-set-1.jpg",
+      "/images/products/caramel-stripe-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Burnt Orange Stripe Set",
+    "slug": "burnt-orange-stripe-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Burnt orange long-sleeve set with white stripes that change direction across the chest, worn with matching striped trousers.",
+    "material": "",
+    "colours": [
+      "Burnt Orange",
+      "White"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/burnt-orange-stripe-set-1.jpg"
+    ]
+  },
+  {
+    "name": "Chocolate Stripe Set",
+    "slug": "chocolate-stripe-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Dark chocolate cloth with tonal stripes. Shown as a long-sleeve set and a short-sleeve set with matching trousers.",
+    "material": "",
+    "colours": [
+      "Chocolate Brown"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/chocolate-stripe-set-1.jpg",
+      "/images/products/chocolate-stripe-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Chocolate Brown Agbada",
+    "slug": "chocolate-brown-agbada",
+    "category": "clothing",
+    "subcategory": "Agbada",
+    "price": 0,
+    "description": "Rich chocolate-brown agbada worn over matching trousers.",
+    "material": "",
+    "colours": [
+      "Brown",
+      "Chocolate"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/chocolate-brown-agbada-1.jpg"
+    ]
+  },
+  {
+    "name": "Golden Tan Set",
+    "slug": "golden-tan-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Golden tan textured cloth with subtle embroidery. Shown as a long-sleeve set and as a full agbada.",
+    "material": "",
+    "colours": [
+      "Golden Tan",
+      "Gold"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/golden-tan-set-1.jpg",
+      "/images/products/golden-tan-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Slate Grey Set",
+    "slug": "slate-grey-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Cool slate grey-blue with a fine vertical texture. Shown as a long-sleeve set with a pleated front and a short-sleeve kaftan set.",
+    "material": "",
+    "colours": [
+      "Slate Grey",
+      "Steel Blue"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/slate-grey-set-1.jpg",
+      "/images/products/slate-grey-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Charcoal Chevron Set",
+    "slug": "charcoal-chevron-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Charcoal long-sleeve set with a chevron-stitched front and matching trousers.",
+    "material": "",
+    "colours": [
+      "Charcoal",
+      "Grey"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/charcoal-chevron-set-1.jpg"
+    ]
+  },
+  {
+    "name": "Light Grey Short-Sleeve Set",
+    "slug": "light-grey-short-sleeve-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Light grey short-sleeve set with a stitched chest pocket and straight trousers.",
+    "material": "",
+    "colours": [
+      "Light Grey"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/light-grey-short-sleeve-set-1.jpg"
+    ]
+  },
+  {
+    "name": "Black Silver-Embroidered Senator Set",
+    "slug": "black-silver-embroidered-senator-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Black short-sleeve senator tops with silver embroidery down the chest, worn with black trousers.",
+    "material": "",
+    "colours": [
+      "Black",
+      "Silver"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/black-silver-embroidered-senator-set-1.jpg",
+      "/images/products/black-silver-embroidered-senator-set-2.jpg"
+    ]
+  },
+  {
+    "name": "Black Agbada with Silver Embroidery",
+    "slug": "black-agbada-with-silver-embroidery",
+    "category": "clothing",
+    "subcategory": "Agbada",
+    "price": 0,
+    "description": "Black agbada with a bold silver geometric embroidery panel down the front, worn over black trousers.",
+    "material": "",
+    "colours": [
+      "Black",
+      "Silver"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": true,
+    "images": [
+      "/images/products/black-agbada-with-silver-embroidery-1.jpg",
+      "/images/products/black-agbada-with-silver-embroidery-2.jpg"
+    ]
+  },
+  {
+    "name": "Classic Black Kaftan Set",
+    "slug": "classic-black-kaftan-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Black sets in several cuts: loose short-sleeve kaftans with trousers, and a short-sleeve top with a button placket.",
+    "material": "",
+    "colours": [
+      "Black"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/classic-black-kaftan-set-1.jpg",
+      "/images/products/classic-black-kaftan-set-2.jpg",
+      "/images/products/classic-black-kaftan-set-3.jpg",
+      "/images/products/classic-black-kaftan-set-4.jpg"
+    ]
+  },
+  {
+    "name": "White Kaftan Set",
+    "slug": "white-kaftan-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Clean white kaftan sets in short-sleeve and longer cuts, each with matching trousers.",
+    "material": "",
+    "colours": [
+      "White",
+      "Cream"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/white-kaftan-set-1.jpg",
+      "/images/products/white-kaftan-set-2.jpg",
+      "/images/products/white-kaftan-set-3.jpg",
+      "/images/products/white-kaftan-set-4.jpg"
+    ]
+  },
+  {
+    "name": "White Agbada Set",
+    "slug": "white-agbada-set",
+    "category": "clothing",
+    "subcategory": "Agbada",
+    "price": 0,
+    "description": "White agbada in three styles: plain with tonal detail, with blue circle embroidery, and with gold embroidery on the chest.",
+    "material": "",
+    "colours": [
+      "White",
+      "Blue",
+      "Gold"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": true,
+    "images": [
+      "/images/products/white-agbada-set-1.jpg",
+      "/images/products/white-agbada-set-2.jpg",
+      "/images/products/white-agbada-set-3.jpg"
+    ]
+  },
+  {
+    "name": "Plum Purple Embroidered Set",
+    "slug": "plum-purple-embroidered-set",
+    "category": "clothing",
+    "subcategory": "Native Wear",
+    "price": 0,
+    "description": "Plum-purple short-sleeve set with embroidered detail down the chest and matching trousers.",
+    "material": "",
+    "colours": [
+      "Plum",
+      "Purple"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/plum-purple-embroidered-set-1.jpg"
+    ]
+  },
+  {
+    "name": "Black & White Check Three-Piece Suit",
+    "slug": "black-white-check-three-piece-suit",
+    "category": "clothing",
+    "subcategory": "Suits",
+    "price": 0,
+    "description": "Bold black-and-white check three-piece suit: jacket, waistcoat and trousers.",
+    "material": "",
+    "colours": [
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/black-white-check-three-piece-suit-1.jpg"
+    ]
+  },
+  {
+    "name": "Khaki Safari Suit",
+    "slug": "khaki-safari-suit",
+    "category": "clothing",
+    "subcategory": "Suits",
+    "price": 0,
+    "description": "Khaki safari-style jacket with four patch pockets and matching trousers.",
+    "material": "",
+    "colours": [
+      "Khaki",
+      "Beige"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/khaki-safari-suit-1.jpg",
+      "/images/products/khaki-safari-suit-2.jpg",
+      "/images/products/khaki-safari-suit-3.jpg"
+    ]
+  },
+  {
+    "name": "Navy White-Pinstripe Fabric",
+    "slug": "navy-white-pinstripe-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Navy cloth with clean white pinstripes.",
+    "material": "",
+    "colours": [
+      "Navy",
+      "White"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/navy-white-pinstripe-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Navy Gold-Stripe Fabric",
+    "slug": "navy-gold-stripe-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Deep navy cloth with fine gold-toned stripes.",
+    "material": "",
+    "colours": [
+      "Navy",
+      "Gold"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/navy-gold-stripe-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Khaki Jacquard Fabric",
+    "slug": "khaki-jacquard-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Khaki cloth with a small woven circle motif.",
+    "material": "",
+    "colours": [
+      "Khaki"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/khaki-jacquard-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Chocolate Jacquard Fabric",
+    "slug": "chocolate-jacquard-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Dark chocolate cloth with a subtle textured weave.",
+    "material": "",
+    "colours": [
+      "Chocolate Brown"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/chocolate-jacquard-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Bright Red Dot Fabric",
+    "slug": "bright-red-dot-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Bright red cloth with a fine dotted weave.",
+    "material": "",
+    "colours": [
+      "Red"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/bright-red-dot-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Steel Blue Stripe Fabric",
+    "slug": "steel-blue-stripe-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Steel blue cloth with tonal stripes.",
+    "material": "",
+    "colours": [
+      "Steel Blue"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/steel-blue-stripe-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Black Jacquard Fabric",
+    "slug": "black-jacquard-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Black cloth with a subtle woven pattern.",
+    "material": "",
+    "colours": [
+      "Black"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/black-jacquard-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Golden Tan Jacquard Fabric",
+    "slug": "golden-tan-jacquard-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Golden tan cloth with a fine woven texture.",
+    "material": "",
+    "colours": [
+      "Golden Tan"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/golden-tan-jacquard-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Wine Stripe Fabric",
+    "slug": "wine-stripe-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Wine-burgundy cloth with tonal stripes.",
+    "material": "",
+    "colours": [
+      "Wine",
+      "Burgundy"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/wine-stripe-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Royal Navy Jacquard Fabric",
+    "slug": "royal-navy-jacquard-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Royal navy cloth with a subtle textured weave.",
+    "material": "",
+    "colours": [
+      "Royal Navy"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/royal-navy-jacquard-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Black Pinstripe Fabric",
+    "slug": "black-pinstripe-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Black cloth with fine tonal pinstripes.",
+    "material": "",
+    "colours": [
+      "Black"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/black-pinstripe-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Copper Pinstripe Fabric",
+    "slug": "copper-pinstripe-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Copper-brown cloth with white pinstripes.",
+    "material": "",
+    "colours": [
+      "Copper",
+      "Brown",
+      "White"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/copper-pinstripe-fabric-1.jpg"
+    ]
+  },
+  {
+    "name": "Grey Linen-Look Fabric",
+    "slug": "grey-linen-look-fabric",
+    "category": "fabric",
+    "subcategory": "Senator Fabric",
+    "price": 0,
+    "description": "Light grey cloth with a soft, linen-like texture.",
+    "material": "",
+    "colours": [
+      "Light Grey"
+    ],
+    "sizes": [],
+    "in_stock": true,
+    "featured": false,
+    "images": [
+      "/images/products/grey-linen-look-fabric-1.jpg"
+    ]
+  }
+]

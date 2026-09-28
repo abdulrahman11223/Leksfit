@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS products (
   slug          TEXT NOT NULL UNIQUE,
   category      TEXT NOT NULL,          -- clothing | monogram | fabric
   subcategory   TEXT DEFAULT '',        -- e.g. Shirts, Agbada, Lace, Monogram Files
-  price         INTEGER NOT NULL,       -- naira, whole numbers, no kobo
+  price         INTEGER NOT NULL DEFAULT 0,  -- naira, whole numbers, no kobo. 0 = price given on WhatsApp
   description   TEXT DEFAULT '',
   material      TEXT DEFAULT '',
   colours       TEXT[] DEFAULT '{}',
@@ -27,6 +27,9 @@ CREATE TABLE IF NOT EXISTS products (
 -- safe to re-run: adds the column only if an earlier version of the table
 -- (from before subcategories existed) doesn't have it yet
 ALTER TABLE products ADD COLUMN IF NOT EXISTS subcategory TEXT DEFAULT '';
+
+-- safe to re-run: lets products be saved without a price (0 = price on WhatsApp)
+ALTER TABLE products ALTER COLUMN price SET DEFAULT 0;
 
 CREATE TABLE IF NOT EXISTS product_images (
   id            SERIAL PRIMARY KEY,

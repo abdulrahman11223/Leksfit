@@ -127,7 +127,7 @@ function renderTable(products) {
           <td>${thumb}</td>
           <td>${escapeHtml(p.name)}${p.featured ? ' ★' : ''}</td>
           <td>${escapeHtml((CATEGORIES[p.category] && CATEGORIES[p.category].label) || p.category)}${p.subcategory ? ` — ${escapeHtml(p.subcategory)}` : ''}</td>
-          <td>₦${Number(p.price).toLocaleString()}</td>
+          <td>${Number(p.price) > 0 ? '₦' + Number(p.price).toLocaleString() : '<span class="hint">On WhatsApp</span>'}</td>
           <td>${status}</td>
           <td class="row-actions">
             <button class="edit-btn">Edit</button>
@@ -178,7 +178,7 @@ function openModal(product) {
 
   if (product) {
     document.getElementById('f_name').value = product.name;
-    document.getElementById('f_price').value = product.price;
+    document.getElementById('f_price').value = Number(product.price) > 0 ? product.price : '';
     document.getElementById('f_description').value = product.description || '';
     document.getElementById('f_material').value = product.material || '';
     document.getElementById('f_colours').value = (product.colours || []).join(', ');

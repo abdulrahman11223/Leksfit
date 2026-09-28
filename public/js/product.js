@@ -34,7 +34,7 @@ if (productWrap) {
         <div>
           <p class="pdp-tag">${escapeHtml(product.subcategory || (CATEGORIES[product.category] && CATEGORIES[product.category].label) || product.category)}</p>
           <h1 class="pdp-title">${escapeHtml(product.name)}</h1>
-          <p class="pdp-price">₦${Number(product.price).toLocaleString()}</p>
+          <p class="pdp-price">${formatPrice(product.price)}</p>
 
           ${!product.in_stock ? '<p class="pdp-unavailable">Currently unavailable</p>' : ''}
 

@@ -21,9 +21,9 @@ if (cartLinesEl) {
           <div class="cart-line-main">
             <div class="cart-line-info">
               <h4>${escapeHtml(line.name)}</h4>
-              <div class="meta">${line.size ? `Size ${line.size} · ` : ''}₦${line.price.toLocaleString()} each</div>
+              <div class="meta">${line.size ? `Size ${line.size}` : ''}${line.size && hasPrice(line) ? ' · ' : ''}${hasPrice(line) ? `₦${line.price.toLocaleString()} each` : ''}</div>
             </div>
-            <div class="cart-line-price">₦${(line.price * line.qty).toLocaleString()}</div>
+            <div class="cart-line-price">${hasPrice(line) ? `₦${(line.price * line.qty).toLocaleString()}` : 'Price on WhatsApp'}</div>
           </div>
           <div class="cart-line-controls">
             <div class="cart-qty">
@@ -39,7 +39,7 @@ if (cartLinesEl) {
 
     cartSummaryEl.innerHTML = `
       <div class="cart-summary">
-        <span class="cart-total">Total: ₦${cartTotal(cart).toLocaleString()}</span>
+        <span class="cart-total">${cartTotalText(cart)}</span>
         <a class="btn btn-wa" id="checkoutBtn" target="_blank" rel="noopener" href="${buildWhatsAppLink(cart)}">Order on WhatsApp</a>
       </div>`;
 
@@ -66,6 +66,13 @@ if (cartLinesEl) {
         render();
       })
     );
+  }
+
+  function cartTotalText(cart) {
+    const total = cartTotal(cart);
+    if (!cartHasUnpriced(cart)) return `Total: ₦${total.toLocaleString()}`;
+    if (total === 0) return 'Price confirmed on WhatsApp';
+    return `₦${total.toLocaleString()} + items priced on WhatsApp`;
   }
 
   function escapeHtml(str) {

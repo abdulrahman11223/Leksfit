@@ -11,6 +11,6 @@ const CATEGORIES = {
   },
   fabric: {
     label: 'Fabrics',
-    subcategories: ['Lace', 'Ankara', 'Aso-Oke', 'Cotton', 'Silk & Brocade']
+    subcategories: ['Senator Fabric', 'Lace', 'Ankara', 'Aso-Oke', 'Cotton', 'Silk & Brocade']
   }
 };

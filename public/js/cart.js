@@ -40,8 +40,22 @@ function updateQty(slug, size, qty) {
   }
 }
 
+// price 0 (or missing) means "price on WhatsApp"
+function hasPrice(line) {
+  return Number(line.price) > 0;
+}
+
+function formatPrice(price) {
+  return Number(price) > 0 ? `₦${Number(price).toLocaleString()}` : 'Price on WhatsApp';
+}
+
+// total of the items that have a price
 function cartTotal(cart = getCart()) {
-  return cart.reduce((sum, line) => sum + line.price * line.qty, 0);
+  return cart.reduce((sum, line) => sum + (hasPrice(line) ? line.price * line.qty : 0), 0);
+}
+
+function cartHasUnpriced(cart = getCart()) {
+  return cart.some((line) => !hasPrice(line));
 }
 
 function cartCount(cart = getCart()) {
@@ -83,8 +97,12 @@ function buildWhatsAppLink(cart = getCart()) {
   const lines = cart.map((line) => {
     const sizeText = line.size ? ` — Size ${line.size}` : '';
     const qtyText = line.qty > 1 ? ` x${line.qty}` : '';
-    return `${line.name}${sizeText}${qtyText} — ₦${(line.price * line.qty).toLocaleString()}`;
+    const priceText = hasPrice(line) ? ` — ₦${(line.price * line.qty).toLocaleString()}` : '';
+    return `${line.name}${sizeText}${qtyText}${priceText}`;
   });
+
+  const unpriced = cartHasUnpriced(cart);
+  const totalLines = cartTotal(cart) > 0 ? [`${unpriced ? 'Total (priced items)' : 'Total'}: ₦${cartTotal(cart).toLocaleString()}`, ''] : [];
 
   const message = [
     'Hello LEKSFIT 👋',
@@ -92,9 +110,8 @@ function buildWhatsAppLink(cart = getCart()) {
     '',
     ...lines,
     '',
-    `Total: ₦${cartTotal(cart).toLocaleString()}`,
-    '',
-    'Please confirm availability.'
+    ...totalLines,
+    unpriced ? 'Please confirm the price and availability.' : 'Please confirm availability.'
   ].join('\n');
 
   return `https://wa.me/2347064338069?text=${encodeURIComponent(message)}`;

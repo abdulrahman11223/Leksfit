@@ -99,3 +99,27 @@ something you both know, then he can change it again from the dashboard.
 - Have Lekan add his real catalogue through `/admin` — the preview's category
   labels (Agbada / Senator Wear / Caftan & Sets) already match the dropdown
   in the dashboard, so nothing to rename on his end.
+
+## 6. The starter catalogue (38 products, no prices yet)
+
+`db/products-seed.json` holds the first catalogue: 25 clothing pieces and 13
+fabrics, with the photos in `public/images/products/`. Near-identical photos
+were dropped, and the same cloth shown in different styles is one product with
+several photos.
+
+```bash
+npm run db:setup   # once — also lets products be saved without a price
+npm run db:seed    # loads the 38 products; safe to run again (existing ones are skipped)
+```
+
+**Prices:** every product is loaded with price 0, which the site shows as
+"Price on WhatsApp". In the cart, those items go into the WhatsApp message
+without a price and the message asks Lekan to confirm the price. When Lekan is
+ready to show a price, he opens the product in `/admin`, types it in and saves.
+The price box in the admin form is now optional.
+
+**Sizes:** none are set yet, so there is no size picker. Tick sizes on a
+product in `/admin` if you want customers to choose one.
+
+**New fabric subcategory:** "Senator Fabric" was added under Fabrics for the
+suiting/senator cloth photos.

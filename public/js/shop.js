@@ -91,7 +91,7 @@ if (sectionsWrap) {
             <h3 class="card-title">${escapeHtml(p.name)}</h3>
           </a>
           <p class="card-desc">${escapeHtml(p.description || '')}</p>
-          <p class="card-price">₦${Number(p.price).toLocaleString()}</p>
+          <p class="card-price">${formatPrice(p.price)}</p>
           ${sizePills ? `<div class="size-pill-row" data-product="${p.slug}">${sizePills}</div>` : ''}
         </div>
         <div class="card-foot">

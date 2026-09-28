@@ -40,6 +40,12 @@ async function uniqueSlug(name, ignoreId) {
   }
 }
 
+// empty / missing / invalid price -> 0, which the site shows as "Price on WhatsApp"
+function parsePrice(value) {
+  const n = Math.round(Number(value));
+  return Number.isFinite(n) && n > 0 ? n : 0;
+}
+
 function parseListField(value) {
   if (!value) return [];
   return String(value)
@@ -51,8 +57,8 @@ function parseListField(value) {
 router.post('/', upload.array('images', 10), async (req, res) => {
   const { name, category, subcategory, price, description, material, colours, sizes, in_stock, featured } = req.body;
 
-  if (!name || !category || !price) {
-    return res.status(400).json({ error: 'Name, category and price are required' });
+  if (!name || !category) {
+    return res.status(400).json({ error: 'Name and category are required' });
   }
 
   const slug = await uniqueSlug(name);
@@ -65,7 +71,7 @@ router.post('/', upload.array('images', 10), async (req, res) => {
       slug,
       category,
       subcategory || '',
-      Number(price),
+      parsePrice(price),
       description || '',
       material || '',
       parseListField(colours),
@@ -109,7 +115,7 @@ router.put('/:id', async (req, res) => {
       slug,
       category ?? existing.category,
       subcategory !== undefined ? subcategory : existing.subcategory,
-      price !== undefined ? Number(price) : existing.price,
+      price !== undefined ? parsePrice(price) : existing.price,
       description ?? existing.description,
       material ?? existing.material,
       colours !== undefined ? parseListField(colours) : existing.colours,
